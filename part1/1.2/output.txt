@@ -1,0 +1,6 @@
+// The output for docker ps-a and docker image ls
+
+PS C:\Users\adiap> docker ps -a
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+PS C:\Users\adiap> docker image ls
+REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
