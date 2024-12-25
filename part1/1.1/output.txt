@@ -1,0 +1,7 @@
+// This is the output after creating 3 containers from nginx and then stopping 2 of them while leaving one running
+
+CONTAINER ID   IMAGE     COMMAND                  CREATED              STATUS                      PORTS     NAMES
+ff03fac5b6da   nginx     "/docker-entrypoint.…"   About a minute ago   Up About a minute           80/tcp    container3
+44f51b112e35   nginx     "/docker-entrypoint.…"   About a minute ago   Exited (0) 22 seconds ago             container2
+81999033e876   nginx     "/docker-entrypoint.…"   About a minute ago   Exited (0) 23 seconds ago             container1
+ 
