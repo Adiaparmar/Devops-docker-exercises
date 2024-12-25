@@ -1,0 +1,19 @@
+# Ignore Docker-related files and directories
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# Ignore Docker-compose override files
+docker-compose.override.yml
+
+# Ignore local development environment files
+.env
+.env.*
+.env.local
+.env.*.local
+
+# Ignore Docker volumes and containers
+docker-data/
+.docker/
+docker-volumes/
